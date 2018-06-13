@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="name"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="title"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#e4995b"
+        android:textSize="25sp"
+
+        />
+
+    <TextView
+        android:id="@+id/date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="date"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/author_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="date"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#e4995b"
+        android:textSize="25sp" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="@color/colorPrimary" />
+
+</LinearLayout>

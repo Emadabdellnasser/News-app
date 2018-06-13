@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">News Feed APP</string>
+
+    <string name="header">News</string>
+</resources>
